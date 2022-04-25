@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="320mm"
+   height="240mm"
+   viewBox="0 0 320 240"
+   version="1.1"
+   id="svg12"
+   sodipodi:docname="mode_panorama.svg"
+   inkscape:export-filename="X:\apps\projects\photo\mode_timelapse.png"
+   inkscape:export-xdpi="25.4"
+   inkscape:export-ydpi="25.4"
+   inkscape:version="1.2-dev (c1616499, 2022-01-19)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview14"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:blackoutopacity="0.0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.27181401"
+     inkscape:cx="641.9831"
+     inkscape:cy="318.23231"
+     inkscape:window-width="1198"
+     inkscape:window-height="1008"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs9" />
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:#ffffff;stroke:#ffffff;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 193.15324,11.098783 7.31315,-8.861819 7.14108,9.033893 z"
+       id="path7380" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.9527px;line-height:1.25;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math';fill:#ffffff;stroke-width:0.186759"
+       x="170.59834"
+       y="22.125069"
+       id="text5417-2"
+       inkscape:transform-center-x="5.522907"
+       inkscape:transform-center-y="-0.3682092"><tspan
+         sodipodi:role="line"
+         id="tspan5415-5"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Consolas;-inkscape-font-specification:Consolas;fill:#ffffff;stroke-width:0.186759"
+         x="170.59834"
+         y="22.125069">Timelapse</tspan></text>
+  </g>
+</svg>

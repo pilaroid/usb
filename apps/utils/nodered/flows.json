@@ -1,0 +1,3025 @@
+[
+    {
+        "id": "9c91473bfbbcb51e",
+        "type": "tab",
+        "label": "Startup",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "b2f1e481daed321d",
+        "type": "tab",
+        "label": "Photo",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "8528d8bd120c6a1a",
+        "type": "tab",
+        "label": "Effects",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "081205eea7b9feef",
+        "type": "tab",
+        "label": "Detect",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "2dfd86c6ca145ed9",
+        "type": "tab",
+        "label": "Settings",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "056fea0e50f3d612",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "localhost",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "sessionExpiry": ""
+    },
+    {
+        "id": "7bc51ff3a801275c",
+        "type": "ui_tab",
+        "name": "Photo",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "5cc23e72711980a0",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-dark",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#097479",
+                    "value": "#097479",
+                    "edited": true
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#097479",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#0eb8c0",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#555555",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#eeeeee",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#097479",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Pilaroid",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "badf0ab139328d70",
+        "type": "ui_group",
+        "name": "Settings",
+        "tab": "7bc51ff3a801275c",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "c52dd801b61623cc",
+        "type": "ui_group",
+        "name": "Stream",
+        "tab": "7bc51ff3a801275c",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "fbc1a0a7af9265cd",
+        "type": "ui_link",
+        "name": "Editor",
+        "link": "/editor",
+        "icon": "open_in_browser",
+        "target": "newtab",
+        "order": 6
+    },
+    {
+        "id": "080a57a56f44d0fd",
+        "type": "ui_tab",
+        "name": "Effects",
+        "icon": "dashboard",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "c76252a04ce09cbb",
+        "type": "ui_group",
+        "name": "Settings",
+        "tab": "080a57a56f44d0fd",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "3e46a1235d1e39b6",
+        "type": "ui_group",
+        "name": "Stream",
+        "tab": "080a57a56f44d0fd",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "c982fbb8.1deb38",
+        "type": "ui_group",
+        "name": "hidden_group",
+        "tab": "",
+        "order": 1,
+        "disp": false,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "98a2e5d8d8f1df08",
+        "type": "ui_tab",
+        "name": "Settings",
+        "icon": "dashboard",
+        "order": 5,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "efa01293b7796321",
+        "type": "ui_group",
+        "name": "Control",
+        "tab": "98a2e5d8d8f1df08",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "5ce3f54c5e05d020",
+        "type": "ui_tab",
+        "name": "Detect",
+        "icon": "dashboard",
+        "order": 4,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "90a3b10f48a940d5",
+        "type": "ui_group",
+        "name": "stream",
+        "tab": "5ce3f54c5e05d020",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "cc52c7bc7f305726",
+        "type": "ui_group",
+        "name": "Clear Personal Data",
+        "tab": "98a2e5d8d8f1df08",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "2dee2e04.7cf00a",
+        "type": "ui_group",
+        "name": "Test Messages",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "9",
+        "collapse": false
+    },
+    {
+        "id": "1ebe6305.3aa6ad",
+        "type": "ui_group",
+        "name": "LAB",
+        "tab": "",
+        "order": 3,
+        "disp": false,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "4fc106995ceb59b2",
+        "type": "ui_link",
+        "name": "Terminal",
+        "link": ":8888",
+        "icon": "open_in_browser",
+        "target": "newtab",
+        "order": 6
+    },
+    {
+        "id": "83d09a8fbea76dbc",
+        "type": "ui_group",
+        "name": "QRCode",
+        "tab": "98a2e5d8d8f1df08",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "03c339c668f25cd9",
+        "type": "inject",
+        "z": "9c91473bfbbcb51e",
+        "name": "On boot",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 100,
+        "y": 160,
+        "wires": [
+            [
+                "8de843a6edc8dfec",
+                "3180be4ea170cc79",
+                "9a624bc3e14526cb",
+                "712b9ad58ea5d59e"
+            ]
+        ]
+    },
+    {
+        "id": "8de843a6edc8dfec",
+        "type": "function",
+        "z": "9c91473bfbbcb51e",
+        "name": "Get system name",
+        "func": "msg.payload = os.hostname();\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [
+            {
+                "var": "os",
+                "module": "os"
+            }
+        ],
+        "x": 430,
+        "y": 40,
+        "wires": [
+            [
+                "983e86c288503272"
+            ]
+        ]
+    },
+    {
+        "id": "983e86c288503272",
+        "type": "mqtt out",
+        "z": "9c91473bfbbcb51e",
+        "name": "",
+        "topic": "system/name",
+        "qos": "",
+        "retain": "true",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "056fea0e50f3d612",
+        "x": 630,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "32cb5ccd28965bb7",
+        "type": "mqtt in",
+        "z": "9c91473bfbbcb51e",
+        "name": "",
+        "topic": "apps/#",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "056fea0e50f3d612",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 90,
+        "y": 440,
+        "wires": [
+            [
+                "821ff886ce61a362"
+            ]
+        ]
+    },
+    {
+        "id": "7bee43688062974f",
+        "type": "mqtt in",
+        "z": "9c91473bfbbcb51e",
+        "name": "",
+        "topic": "system/#",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "056fea0e50f3d612",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 100,
+        "y": 500,
+        "wires": [
+            [
+                "821ff886ce61a362"
+            ]
+        ]
+    },
+    {
+        "id": "821ff886ce61a362",
+        "type": "function",
+        "z": "9c91473bfbbcb51e",
+        "name": "Save Settings as Global",
+        "func": "global.set(msg.topic, msg.payload)\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 310,
+        "y": 460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3180be4ea170cc79",
+        "type": "function",
+        "z": "9c91473bfbbcb51e",
+        "name": "Get system ip",
+        "func": "var networkInterfaces = os.networkInterfaces();\nmsg.payload = networkInterfaces.wlan0[0].address;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [
+            {
+                "var": "os",
+                "module": "os"
+            }
+        ],
+        "x": 420,
+        "y": 100,
+        "wires": [
+            [
+                "02245b30b1601186",
+                "40a3098a9f9f43de",
+                "c64409367215862e"
+            ]
+        ]
+    },
+    {
+        "id": "02245b30b1601186",
+        "type": "mqtt out",
+        "z": "9c91473bfbbcb51e",
+        "name": "",
+        "topic": "system/ip",
+        "qos": "",
+        "retain": "true",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "056fea0e50f3d612",
+        "x": 620,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "9a624bc3e14526cb",
+        "type": "exec",
+        "z": "9c91473bfbbcb51e",
+        "command": "iwgetid -r",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "Get SSID",
+        "x": 400,
+        "y": 180,
+        "wires": [
+            [
+                "886c00eca2028035"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "886c00eca2028035",
+        "type": "function",
+        "z": "9c91473bfbbcb51e",
+        "name": "clean ssid",
+        "func": "msg.payload = msg.payload.trim()\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 400,
+        "y": 220,
+        "wires": [
+            [
+                "a57245883223e395"
+            ]
+        ]
+    },
+    {
+        "id": "a57245883223e395",
+        "type": "mqtt out",
+        "z": "9c91473bfbbcb51e",
+        "name": "",
+        "topic": "system/ssid",
+        "qos": "",
+        "retain": "true",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "056fea0e50f3d612",
+        "x": 630,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "712b9ad58ea5d59e",
+        "type": "file in",
+        "z": "9c91473bfbbcb51e",
+        "name": "is sdcard readonly",
+        "filename": "/boot/cmdline.txt",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 430,
+        "y": 280,
+        "wires": [
+            [
+                "578bdeee2806c7b8"
+            ]
+        ]
+    },
+    {
+        "id": "578bdeee2806c7b8",
+        "type": "function",
+        "z": "9c91473bfbbcb51e",
+        "name": "",
+        "func": "if(msg.payload.includes(\"overlay\")){\n    msg.payload = \"r\"\n} else {\n    msg.payload = \"rw\"\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 420,
+        "y": 320,
+        "wires": [
+            [
+                "9c5796bef58d0066"
+            ]
+        ]
+    },
+    {
+        "id": "9c5796bef58d0066",
+        "type": "mqtt out",
+        "z": "9c91473bfbbcb51e",
+        "name": "",
+        "topic": "system/sd",
+        "qos": "",
+        "retain": "true",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "056fea0e50f3d612",
+        "x": 620,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "46651ea3166547f7",
+        "type": "comment",
+        "z": "9c91473bfbbcb51e",
+        "name": "System Information",
+        "info": "",
+        "x": 110,
+        "y": 20,
+        "wires": []
+    },
+    {
+        "id": "384d10b0a0b19972",
+        "type": "comment",
+        "z": "9c91473bfbbcb51e",
+        "name": "Applications",
+        "info": "",
+        "x": 90,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "d581b87a9ab0eec9",
+        "type": "mqtt in",
+        "z": "9c91473bfbbcb51e",
+        "name": "",
+        "topic": "system/app",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "056fea0e50f3d612",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 100,
+        "y": 580,
+        "wires": [
+            [
+                "e2575394327c5035"
+            ]
+        ]
+    },
+    {
+        "id": "8f945a3a98b2b568",
+        "type": "ui_toast",
+        "z": "9c91473bfbbcb51e",
+        "position": "top right",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "",
+        "x": 530,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "40a3098a9f9f43de",
+        "type": "ui_text",
+        "z": "9c91473bfbbcb51e",
+        "group": "efa01293b7796321",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "IP:",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 870,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "e2575394327c5035",
+        "type": "switch",
+        "z": "9c91473bfbbcb51e",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "empty"
+            },
+            {
+                "t": "eq",
+                "v": "none",
+                "vt": "str"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 270,
+        "y": 580,
+        "wires": [
+            [],
+            [],
+            [
+                "8f945a3a98b2b568"
+            ]
+        ]
+    },
+    {
+        "id": "b0a13733a2f1a70d",
+        "type": "qrcode-generator",
+        "z": "9c91473bfbbcb51e",
+        "name": "",
+        "qrtype": "text2qr",
+        "text2qrText": "",
+        "ssid": "",
+        "hiddenssid": false,
+        "wifitype": "",
+        "phonenum": "",
+        "smsphonenum": "",
+        "smstext": "",
+        "mailto": "",
+        "mailsubject": "",
+        "mailbody": "",
+        "latitude": "",
+        "longitude": "",
+        "colorlight": "#ffffff",
+        "colordark": "#000000",
+        "printstatus": false,
+        "x": 970,
+        "y": 160,
+        "wires": [
+            [
+                "ee35afc0997562a6"
+            ]
+        ]
+    },
+    {
+        "id": "ee35afc0997562a6",
+        "type": "ui_template",
+        "z": "9c91473bfbbcb51e",
+        "group": "83d09a8fbea76dbc",
+        "name": "",
+        "order": 7,
+        "width": "6",
+        "height": "8",
+        "format": "<img src=\"{{msg.payload}}\">",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1120,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c64409367215862e",
+        "type": "function",
+        "z": "9c91473bfbbcb51e",
+        "name": "",
+        "func": "msg.qrcodeinput = \"http://\" + msg.payload\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 820,
+        "y": 160,
+        "wires": [
+            [
+                "b0a13733a2f1a70d"
+            ]
+        ]
+    },
+    {
+        "id": "897cc74e9678060a",
+        "type": "camerapi-takephoto",
+        "z": "9c91473bfbbcb51e",
+        "filemode": "0",
+        "filename": "",
+        "filedefpath": "1",
+        "filepath": "",
+        "fileformat": "jpeg",
+        "resolution": "8",
+        "rotation": "0",
+        "fliph": "0",
+        "flipv": "0",
+        "brightness": "50",
+        "contrast": "0",
+        "sharpness": "0",
+        "quality": "80",
+        "imageeffect": "none",
+        "exposuremode": "auto",
+        "iso": "0",
+        "agcwait": "1.0",
+        "led": "0",
+        "awb": "auto",
+        "name": "",
+        "x": 360,
+        "y": 660,
+        "wires": [
+            [
+                "bc6fca7d9dfa9117"
+            ]
+        ]
+    },
+    {
+        "id": "b4eb0354e3328ed8",
+        "type": "inject",
+        "z": "9c91473bfbbcb51e",
+        "name": "Click to take photo",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 140,
+        "y": 660,
+        "wires": [
+            [
+                "897cc74e9678060a"
+            ]
+        ]
+    },
+    {
+        "id": "bc6fca7d9dfa9117",
+        "type": "image",
+        "z": "9c91473bfbbcb51e",
+        "name": "",
+        "width": 160,
+        "data": "payload",
+        "dataType": "msg",
+        "thumbnail": false,
+        "active": true,
+        "pass": false,
+        "outputs": 0,
+        "x": 560,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "bebd2939a715161c",
+        "type": "ui_dropdown",
+        "z": "b2f1e481daed321d",
+        "name": "",
+        "label": "🖼 Type",
+        "tooltip": "",
+        "place": "Select option",
+        "group": "badf0ab139328d70",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "multiple": false,
+        "options": [
+            {
+                "label": "Photo",
+                "value": "photo",
+                "type": "str"
+            },
+            {
+                "label": "Timelapse",
+                "value": "timelapse",
+                "type": "str"
+            },
+            {
+                "label": "Panorama",
+                "value": "panorama",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "payload",
+        "topicType": "msg",
+        "className": "",
+        "x": 300,
+        "y": 100,
+        "wires": [
+            [
+                "852d583f18ecb91a"
+            ]
+        ]
+    },
+    {
+        "id": "852d583f18ecb91a",
+        "type": "mqtt out",
+        "z": "b2f1e481daed321d",
+        "name": "",
+        "topic": "apps/mode",
+        "qos": "",
+        "retain": "true",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "056fea0e50f3d612",
+        "x": 490,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "9cd4f3d61f794d8a",
+        "type": "ui_slider",
+        "z": "b2f1e481daed321d",
+        "name": "",
+        "label": "⏲ Timer",
+        "tooltip": "",
+        "group": "badf0ab139328d70",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "outs": "end",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": 0,
+        "max": "50",
+        "step": 1,
+        "className": "",
+        "x": 300,
+        "y": 160,
+        "wires": [
+            [
+                "2dfa4da08f56639f"
+            ]
+        ]
+    },
+    {
+        "id": "2dfa4da08f56639f",
+        "type": "mqtt out",
+        "z": "b2f1e481daed321d",
+        "name": "",
+        "topic": "apps/timer",
+        "qos": "",
+        "retain": "true",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "056fea0e50f3d612",
+        "x": 490,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "93ede908681d54bf",
+        "type": "ui_button",
+        "z": "b2f1e481daed321d",
+        "name": "",
+        "group": "badf0ab139328d70",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "📷 Take a picture",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "take",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 330,
+        "y": 220,
+        "wires": [
+            [
+                "d3f5ef4a0b4bfbb5"
+            ]
+        ]
+    },
+    {
+        "id": "d3f5ef4a0b4bfbb5",
+        "type": "mqtt out",
+        "z": "b2f1e481daed321d",
+        "name": "",
+        "topic": "apps/action",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "056fea0e50f3d612",
+        "x": 530,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "11cf911d52970ac8",
+        "type": "mqtt in",
+        "z": "b2f1e481daed321d",
+        "name": "",
+        "topic": "apps/timer",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "056fea0e50f3d612",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 80,
+        "y": 160,
+        "wires": [
+            [
+                "9cd4f3d61f794d8a"
+            ]
+        ]
+    },
+    {
+        "id": "dc5213e65fdfce80",
+        "type": "mqtt in",
+        "z": "b2f1e481daed321d",
+        "name": "",
+        "topic": "apps/mode",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "056fea0e50f3d612",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 80,
+        "y": 100,
+        "wires": [
+            [
+                "bebd2939a715161c"
+            ]
+        ]
+    },
+    {
+        "id": "c26712c975b4b22c",
+        "type": "comment",
+        "z": "b2f1e481daed321d",
+        "name": "🔲 Buttons 🎚️ Slider",
+        "info": "",
+        "x": 110,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "7e55a292311bb1d3",
+        "type": "ui_template",
+        "z": "b2f1e481daed321d",
+        "group": "c52dd801b61623cc",
+        "name": "",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "format": "<iframe id=\"stream_iframe\" scrolling=\"no\"\n        src=\"\"\n        frameborder=\"0\"\n        style=\"border:0\"\n    >\n</iframe>\n<script>\ndocument.getElementById(\"stream_iframe\").src = \"http://\" + location.hostname + \":8000/\";\n(function(scope) {\n    // watch msg object from Node-RED\n    scope.$watch('msg', function(msg) {\n        // new message received\n        if(typeof msg !== 'undefined'){\n            if(msg.payload == \"refresh_stream\"){\n                console.log(\"Refresh stream...\");\n                    document.getElementById('stream_iframe').src = document.getElementById('stream_iframe').src\n            }\n        }\n    });\n})(scope);\n</script>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 400,
+        "y": 380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "efd67ab042354585",
+        "type": "comment",
+        "z": "b2f1e481daed321d",
+        "name": "🤳 Preview",
+        "info": "",
+        "x": 90,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "b8da529a232d46d8",
+        "type": "ui_button",
+        "z": "b2f1e481daed321d",
+        "name": "",
+        "group": "c52dd801b61623cc",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Refresh",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "refresh_stream",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 100,
+        "y": 400,
+        "wires": [
+            [
+                "7e55a292311bb1d3"
+            ]
+        ]
+    },
+    {
+        "id": "e6321858da8286e7",
+        "type": "function",
+        "z": "b2f1e481daed321d",
+        "name": "",
+        "func": "msg.payload = \"refresh_stream\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 160,
+        "y": 360,
+        "wires": [
+            [
+                "7e55a292311bb1d3"
+            ]
+        ]
+    },
+    {
+        "id": "c82fe5591fcb4d3f",
+        "type": "ui_button",
+        "z": "b2f1e481daed321d",
+        "name": "",
+        "group": "badf0ab139328d70",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Enable",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "photo",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 290,
+        "y": 60,
+        "wires": [
+            [
+                "e8bc940b2055819d",
+                "6aadf3120ce0907b"
+            ]
+        ]
+    },
+    {
+        "id": "e8bc940b2055819d",
+        "type": "exec",
+        "z": "b2f1e481daed321d",
+        "command": "python /media/usb/apps/utils/command/changeapp.py ",
+        "addpay": "payload",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "Change Application",
+        "x": 510,
+        "y": 60,
+        "wires": [
+            [
+                "e6321858da8286e7",
+                "6aadf3120ce0907b"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "6aadf3120ce0907b",
+        "type": "ui_toast",
+        "z": "b2f1e481daed321d",
+        "position": "top right",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "",
+        "x": 910,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "3253cb64476c7d59",
+        "type": "ui_dropdown",
+        "z": "8528d8bd120c6a1a",
+        "name": "",
+        "label": "🖼 Type",
+        "tooltip": "",
+        "place": "Select option",
+        "group": "c76252a04ce09cbb",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "multiple": false,
+        "options": [
+            {
+                "label": "Photo",
+                "value": "photo",
+                "type": "str"
+            },
+            {
+                "label": "Timelapse",
+                "value": "timelapse",
+                "type": "str"
+            },
+            {
+                "label": "Panorama",
+                "value": "panorama",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "payload",
+        "topicType": "msg",
+        "className": "",
+        "x": 280,
+        "y": 100,
+        "wires": [
+            [
+                "c0fe59e03add4cfc"
+            ]
+        ]
+    },
+    {
+        "id": "c0fe59e03add4cfc",
+        "type": "mqtt out",
+        "z": "8528d8bd120c6a1a",
+        "name": "",
+        "topic": "apps/mode",
+        "qos": "",
+        "retain": "true",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "056fea0e50f3d612",
+        "x": 470,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "2a9cc351ea05c290",
+        "type": "ui_slider",
+        "z": "8528d8bd120c6a1a",
+        "name": "",
+        "label": "⏲ Timer",
+        "tooltip": "",
+        "group": "c76252a04ce09cbb",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "outs": "end",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": 0,
+        "max": "50",
+        "step": 1,
+        "className": "",
+        "x": 280,
+        "y": 220,
+        "wires": [
+            [
+                "9c6b000b5a4a4c4e"
+            ]
+        ]
+    },
+    {
+        "id": "9c6b000b5a4a4c4e",
+        "type": "mqtt out",
+        "z": "8528d8bd120c6a1a",
+        "name": "",
+        "topic": "apps/timer",
+        "qos": "",
+        "retain": "true",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "056fea0e50f3d612",
+        "x": 470,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "17cacf7b33784ad3",
+        "type": "ui_button",
+        "z": "8528d8bd120c6a1a",
+        "name": "",
+        "group": "c76252a04ce09cbb",
+        "order": 9,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "📷 Take a picture",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "take",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 110,
+        "y": 300,
+        "wires": [
+            [
+                "81303a27718a5761"
+            ]
+        ]
+    },
+    {
+        "id": "81303a27718a5761",
+        "type": "mqtt out",
+        "z": "8528d8bd120c6a1a",
+        "name": "",
+        "topic": "apps/action",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "056fea0e50f3d612",
+        "x": 470,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "6135625b64e198d3",
+        "type": "mqtt in",
+        "z": "8528d8bd120c6a1a",
+        "name": "",
+        "topic": "apps/timer",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "056fea0e50f3d612",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 80,
+        "y": 220,
+        "wires": [
+            [
+                "2a9cc351ea05c290"
+            ]
+        ]
+    },
+    {
+        "id": "120868785f4d31e1",
+        "type": "mqtt in",
+        "z": "8528d8bd120c6a1a",
+        "name": "",
+        "topic": "apps/mode",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "056fea0e50f3d612",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 80,
+        "y": 100,
+        "wires": [
+            [
+                "3253cb64476c7d59"
+            ]
+        ]
+    },
+    {
+        "id": "470e0d5ec6734f5b",
+        "type": "comment",
+        "z": "8528d8bd120c6a1a",
+        "name": "🔲 Buttons 🎚️ Slider",
+        "info": "",
+        "x": 110,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "16e961128fef1b97",
+        "type": "comment",
+        "z": "8528d8bd120c6a1a",
+        "name": "🤳 Preview",
+        "info": "",
+        "x": 90,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "b8f88b66d492c3b0",
+        "type": "function",
+        "z": "8528d8bd120c6a1a",
+        "name": "",
+        "func": "msg.payload = \"refresh_stream\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 140,
+        "y": 480,
+        "wires": [
+            [
+                "15c697d345aa08b9"
+            ]
+        ]
+    },
+    {
+        "id": "e626cfe1382278e7",
+        "type": "ui_template",
+        "z": "8528d8bd120c6a1a",
+        "group": "3e46a1235d1e39b6",
+        "name": "",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "format": "<iframe id=\"stream_iframe\" scrolling=\"no\"\n        src=\"\"\n        frameborder=\"0\"\n        style=\"border:0\"\n    >\n</iframe>\n<script>\ndocument.getElementById(\"stream_iframe\").src = \"http://\" + location.hostname + \":8000/\";\n(function(scope) {\n    // watch msg object from Node-RED\n    scope.$watch('msg', function(msg) {\n        // new message received\n        if(typeof msg !== 'undefined'){\n            if(msg.payload == \"refresh_stream\"){\n                console.log(\"Refresh stream...\");\n                    document.getElementById('stream_iframe').src = document.getElementById('stream_iframe').src\n            }\n        }\n    });\n})(scope);\n</script>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 480,
+        "y": 520,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a10119b6ea2e927e",
+        "type": "ui_button",
+        "z": "8528d8bd120c6a1a",
+        "name": "",
+        "group": "3e46a1235d1e39b6",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Refresh",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "refresh_stream",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 80,
+        "y": 520,
+        "wires": [
+            [
+                "e626cfe1382278e7"
+            ]
+        ]
+    },
+    {
+        "id": "15c697d345aa08b9",
+        "type": "delay",
+        "z": "8528d8bd120c6a1a",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 300,
+        "y": 480,
+        "wires": [
+            [
+                "e626cfe1382278e7"
+            ]
+        ]
+    },
+    {
+        "id": "2369fcab8f639db6",
+        "type": "ui_dropdown",
+        "z": "8528d8bd120c6a1a",
+        "name": "",
+        "label": "🖼 Effects",
+        "tooltip": "",
+        "place": "Select option",
+        "group": "c76252a04ce09cbb",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "multiple": false,
+        "options": [
+            {
+                "label": "Matrix",
+                "value": "matrix",
+                "type": "str"
+            },
+            {
+                "label": "Comics",
+                "value": "comics",
+                "type": "str"
+            },
+            {
+                "label": "Comics (Colored)",
+                "value": "colored_comics",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "payload",
+        "topicType": "msg",
+        "className": "",
+        "x": 280,
+        "y": 160,
+        "wires": [
+            [
+                "c6a09090cf589cb9"
+            ]
+        ]
+    },
+    {
+        "id": "982794b38518273e",
+        "type": "mqtt in",
+        "z": "8528d8bd120c6a1a",
+        "name": "",
+        "topic": "apps/effects",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "056fea0e50f3d612",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 90,
+        "y": 160,
+        "wires": [
+            [
+                "2369fcab8f639db6"
+            ]
+        ]
+    },
+    {
+        "id": "c6a09090cf589cb9",
+        "type": "mqtt out",
+        "z": "8528d8bd120c6a1a",
+        "name": "",
+        "topic": "apps/effects",
+        "qos": "",
+        "retain": "true",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "056fea0e50f3d612",
+        "x": 470,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "d0a76639475a8688",
+        "type": "ui_slider",
+        "z": "8528d8bd120c6a1a",
+        "name": "",
+        "label": "Matrix",
+        "tooltip": "",
+        "group": "c76252a04ce09cbb",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "outs": "end",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": "1",
+        "max": "19",
+        "step": "2",
+        "className": "",
+        "x": 850,
+        "y": 240,
+        "wires": [
+            [
+                "2a10d76f59e92903"
+            ]
+        ]
+    },
+    {
+        "id": "faa1fc7f43f635d5",
+        "type": "mqtt in",
+        "z": "8528d8bd120c6a1a",
+        "name": "",
+        "topic": "apps/matrix_line",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "056fea0e50f3d612",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 680,
+        "y": 240,
+        "wires": [
+            [
+                "d0a76639475a8688"
+            ]
+        ]
+    },
+    {
+        "id": "2a10d76f59e92903",
+        "type": "mqtt out",
+        "z": "8528d8bd120c6a1a",
+        "name": "",
+        "topic": "apps/matrix_line",
+        "qos": "",
+        "retain": "true",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "056fea0e50f3d612",
+        "x": 1060,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "8c352af396c1e32b",
+        "type": "mqtt in",
+        "z": "8528d8bd120c6a1a",
+        "name": "",
+        "topic": "apps/comics_line",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "056fea0e50f3d612",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 680,
+        "y": 300,
+        "wires": [
+            [
+                "6ed4cb42ecaebfd1"
+            ]
+        ]
+    },
+    {
+        "id": "2de7e405da9d4547",
+        "type": "mqtt out",
+        "z": "8528d8bd120c6a1a",
+        "name": "",
+        "topic": "apps/comics_line",
+        "qos": "",
+        "retain": "true",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "056fea0e50f3d612",
+        "x": 1070,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "6ed4cb42ecaebfd1",
+        "type": "ui_slider",
+        "z": "8528d8bd120c6a1a",
+        "name": "",
+        "label": "Comics",
+        "tooltip": "",
+        "group": "c76252a04ce09cbb",
+        "order": 8,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "outs": "end",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": "-1000",
+        "max": "1000",
+        "step": "1",
+        "className": "",
+        "x": 860,
+        "y": 300,
+        "wires": [
+            [
+                "2de7e405da9d4547"
+            ]
+        ]
+    },
+    {
+        "id": "23155eca536ce7d0",
+        "type": "ui_dropdown",
+        "z": "8528d8bd120c6a1a",
+        "name": "",
+        "label": "Color",
+        "tooltip": "",
+        "place": "Select option",
+        "group": "c76252a04ce09cbb",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "multiple": false,
+        "options": [
+            {
+                "label": "White",
+                "value": "white",
+                "type": "str"
+            },
+            {
+                "label": "Red",
+                "value": "red",
+                "type": "str"
+            },
+            {
+                "label": "Green",
+                "value": "green",
+                "type": "str"
+            },
+            {
+                "label": "Blue",
+                "value": "blue",
+                "type": "str"
+            },
+            {
+                "label": "Yellow",
+                "value": "yellow",
+                "type": "str"
+            },
+            {
+                "label": "Purple",
+                "value": "purple",
+                "type": "str"
+            },
+            {
+                "label": "Cyan",
+                "value": "cyan",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "payload",
+        "topicType": "msg",
+        "className": "",
+        "x": 830,
+        "y": 100,
+        "wires": [
+            [
+                "2558d2bff736f0cf"
+            ]
+        ]
+    },
+    {
+        "id": "309c708d4f2c99ed",
+        "type": "ui_dropdown",
+        "z": "8528d8bd120c6a1a",
+        "name": "",
+        "label": "Background Color",
+        "tooltip": "",
+        "place": "Select option",
+        "group": "c76252a04ce09cbb",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "multiple": false,
+        "options": [
+            {
+                "label": "White",
+                "value": "white",
+                "type": "str"
+            },
+            {
+                "label": "Black",
+                "value": "black",
+                "type": "str"
+            },
+            {
+                "label": "Red",
+                "value": "red",
+                "type": "str"
+            },
+            {
+                "label": "Green",
+                "value": "green",
+                "type": "str"
+            },
+            {
+                "label": "Blue",
+                "value": "blue",
+                "type": "str"
+            },
+            {
+                "label": "Yellow",
+                "value": "yellow",
+                "type": "str"
+            },
+            {
+                "label": "Purple",
+                "value": "purple",
+                "type": "str"
+            },
+            {
+                "label": "Cyan",
+                "value": "cyan",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "payload",
+        "topicType": "msg",
+        "className": "",
+        "x": 910,
+        "y": 160,
+        "wires": [
+            [
+                "cfe5b6dd0900c00b"
+            ]
+        ]
+    },
+    {
+        "id": "99267d04cc17d7b1",
+        "type": "mqtt in",
+        "z": "8528d8bd120c6a1a",
+        "name": "",
+        "topic": "apps/color",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "056fea0e50f3d612",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 660,
+        "y": 100,
+        "wires": [
+            [
+                "23155eca536ce7d0"
+            ]
+        ]
+    },
+    {
+        "id": "6207b4b4cbad9307",
+        "type": "mqtt in",
+        "z": "8528d8bd120c6a1a",
+        "name": "",
+        "topic": "apps/background_color",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "056fea0e50f3d612",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 700,
+        "y": 160,
+        "wires": [
+            [
+                "309c708d4f2c99ed"
+            ]
+        ]
+    },
+    {
+        "id": "2558d2bff736f0cf",
+        "type": "mqtt out",
+        "z": "8528d8bd120c6a1a",
+        "name": "",
+        "topic": "apps/color",
+        "qos": "",
+        "retain": "true",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "056fea0e50f3d612",
+        "x": 1030,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "cfe5b6dd0900c00b",
+        "type": "mqtt out",
+        "z": "8528d8bd120c6a1a",
+        "name": "",
+        "topic": "apps/background_color",
+        "qos": "",
+        "retain": "true",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "056fea0e50f3d612",
+        "x": 1150,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "e8b34cbe46b1fdd7",
+        "type": "ui_button",
+        "z": "8528d8bd120c6a1a",
+        "name": "",
+        "group": "c76252a04ce09cbb",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Enable",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "effects",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 280,
+        "y": 40,
+        "wires": [
+            [
+                "d53e8237e2a666b9",
+                "f04c24eeb4ea1684"
+            ]
+        ]
+    },
+    {
+        "id": "d53e8237e2a666b9",
+        "type": "exec",
+        "z": "8528d8bd120c6a1a",
+        "command": "python /media/usb/apps/utils/command/changeapp.py ",
+        "addpay": "payload",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "Change Application",
+        "x": 490,
+        "y": 40,
+        "wires": [
+            [
+                "f04c24eeb4ea1684",
+                "b8f88b66d492c3b0"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "f04c24eeb4ea1684",
+        "type": "ui_toast",
+        "z": "8528d8bd120c6a1a",
+        "position": "top right",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "",
+        "x": 760,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "c14bddc1392f831f",
+        "type": "comment",
+        "z": "081205eea7b9feef",
+        "name": "🔲 Buttons 🎚️ Slider",
+        "info": "",
+        "x": 110,
+        "y": 20,
+        "wires": []
+    },
+    {
+        "id": "0fe7167798c1832d",
+        "type": "comment",
+        "z": "081205eea7b9feef",
+        "name": "🤳 Preview",
+        "info": "",
+        "x": 90,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "bd131cd19ae374be",
+        "type": "ui_text",
+        "z": "081205eea7b9feef",
+        "group": "90a3b10f48a940d5",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Objects:",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 440,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "04509d183d1b2c38",
+        "type": "mqtt in",
+        "z": "081205eea7b9feef",
+        "name": "",
+        "topic": "apps/detections",
+        "qos": "2",
+        "datatype": "json",
+        "broker": "056fea0e50f3d612",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 100,
+        "y": 120,
+        "wires": [
+            [
+                "552bc6903254ce01"
+            ]
+        ]
+    },
+    {
+        "id": "552bc6903254ce01",
+        "type": "function",
+        "z": "081205eea7b9feef",
+        "name": "",
+        "func": "string = \"\"\nfor (let i = 0; i < msg.payload.length; i++) {\n    string = string + msg.payload[i].label\n    string = string + \"\\n\"\n}\nmsg.payload = string\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 280,
+        "y": 120,
+        "wires": [
+            [
+                "bd131cd19ae374be"
+            ]
+        ]
+    },
+    {
+        "id": "75d61ac3c9e48059",
+        "type": "ui_button",
+        "z": "081205eea7b9feef",
+        "name": "",
+        "group": "90a3b10f48a940d5",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Enable",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "detect",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 80,
+        "y": 60,
+        "wires": [
+            [
+                "979d2272c49aaf76",
+                "9276d1024f12be4d"
+            ]
+        ]
+    },
+    {
+        "id": "979d2272c49aaf76",
+        "type": "exec",
+        "z": "081205eea7b9feef",
+        "command": "python /media/usb/apps/utils/command/changeapp.py ",
+        "addpay": "payload",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "Change Application",
+        "x": 290,
+        "y": 60,
+        "wires": [
+            [
+                "0975962752caf53b",
+                "9276d1024f12be4d"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "0975962752caf53b",
+        "type": "function",
+        "z": "081205eea7b9feef",
+        "name": "",
+        "func": "msg.payload = \"refresh_stream\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 140,
+        "y": 240,
+        "wires": [
+            [
+                "aa5c76510beb9852"
+            ]
+        ]
+    },
+    {
+        "id": "947bd57fdb3c8624",
+        "type": "ui_template",
+        "z": "081205eea7b9feef",
+        "group": "90a3b10f48a940d5",
+        "name": "",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "format": "<iframe id=\"stream_iframe\" scrolling=\"no\"\n        src=\"\"\n        frameborder=\"0\"\n        style=\"border:0\"\n    >\n</iframe>\n<script>\ndocument.getElementById(\"stream_iframe\").src = \"http://\" + location.hostname + \":8000/\";\n(function(scope) {\n    // watch msg object from Node-RED\n    scope.$watch('msg', function(msg) {\n        // new message received\n        if(typeof msg !== 'undefined'){\n            if(msg.payload == \"refresh_stream\"){\n                console.log(\"Refresh stream...\");\n                    document.getElementById('stream_iframe').src = document.getElementById('stream_iframe').src\n            }\n        }\n    });\n})(scope);\n</script>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 480,
+        "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a4108bf681a457e7",
+        "type": "ui_button",
+        "z": "081205eea7b9feef",
+        "name": "",
+        "group": "90a3b10f48a940d5",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Refresh",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "refresh_stream",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 80,
+        "y": 280,
+        "wires": [
+            [
+                "947bd57fdb3c8624"
+            ]
+        ]
+    },
+    {
+        "id": "aa5c76510beb9852",
+        "type": "delay",
+        "z": "081205eea7b9feef",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 300,
+        "y": 240,
+        "wires": [
+            [
+                "947bd57fdb3c8624"
+            ]
+        ]
+    },
+    {
+        "id": "9276d1024f12be4d",
+        "type": "ui_toast",
+        "z": "081205eea7b9feef",
+        "position": "top right",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "",
+        "x": 570,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "1cdc45068652414e",
+        "type": "ui_button",
+        "z": "2dfd86c6ca145ed9",
+        "name": "",
+        "group": "efa01293b7796321",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Power OFF",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 110,
+        "y": 80,
+        "wires": [
+            [
+                "5e9e848783c31c4f"
+            ]
+        ]
+    },
+    {
+        "id": "5e9e848783c31c4f",
+        "type": "exec",
+        "z": "2dfd86c6ca145ed9",
+        "command": "poweroff",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "",
+        "x": 300,
+        "y": 80,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "bc5c88e8de158c2f",
+        "type": "ui_button",
+        "z": "2dfd86c6ca145ed9",
+        "name": "",
+        "group": "efa01293b7796321",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Reboot",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 100,
+        "y": 140,
+        "wires": [
+            [
+                "a5f359a29529ea0d"
+            ]
+        ]
+    },
+    {
+        "id": "a5f359a29529ea0d",
+        "type": "exec",
+        "z": "2dfd86c6ca145ed9",
+        "command": "reboot",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "",
+        "x": 290,
+        "y": 140,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "9da678b96fd53f0b",
+        "type": "cpu",
+        "z": "2dfd86c6ca145ed9",
+        "name": "",
+        "msgCore": false,
+        "msgOverall": true,
+        "msgArray": false,
+        "msgTemp": false,
+        "x": 330,
+        "y": 220,
+        "wires": [
+            [
+                "16550ede19a07846"
+            ]
+        ]
+    },
+    {
+        "id": "6e2eb32d93db209e",
+        "type": "vcgencmd",
+        "z": "2dfd86c6ca145ed9",
+        "name": "",
+        "fullPath": "/usr/bin/vcgencmd",
+        "command": "measure_temp",
+        "codec": "H264",
+        "clock": "core",
+        "voltage": "core",
+        "memory": "arm",
+        "videoOutput": "0",
+        "separateMsg": false,
+        "x": 350,
+        "y": 260,
+        "wires": [
+            [
+                "9f9ed079c0d821da"
+            ]
+        ]
+    },
+    {
+        "id": "9f9ed079c0d821da",
+        "type": "ui_gauge",
+        "z": "2dfd86c6ca145ed9",
+        "name": "",
+        "group": "efa01293b7796321",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Temperature",
+        "label": "°C",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "80",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 530,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "16550ede19a07846",
+        "type": "ui_gauge",
+        "z": "2dfd86c6ca145ed9",
+        "name": "",
+        "group": "efa01293b7796321",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "CPU",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 510,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "c06ee386b9a2e446",
+        "type": "inject",
+        "z": "2dfd86c6ca145ed9",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 240,
+        "wires": [
+            [
+                "9da678b96fd53f0b",
+                "6e2eb32d93db209e"
+            ]
+        ]
+    },
+    {
+        "id": "5ecf256c221bd966",
+        "type": "ui_button",
+        "z": "2dfd86c6ca145ed9",
+        "name": "",
+        "group": "efa01293b7796321",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Disable application",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 130,
+        "y": 320,
+        "wires": [
+            [
+                "4593bc35ea7c4d6b"
+            ]
+        ]
+    },
+    {
+        "id": "4593bc35ea7c4d6b",
+        "type": "exec",
+        "z": "2dfd86c6ca145ed9",
+        "command": "supervisorctl stop app",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "",
+        "x": 360,
+        "y": 320,
+        "wires": [
+            [
+                "ee60263559d81290"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "eecde5d5713a0187",
+        "type": "ui_button",
+        "z": "2dfd86c6ca145ed9",
+        "name": "",
+        "group": "cc52c7bc7f305726",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Clean Logs",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 110,
+        "y": 400,
+        "wires": [
+            [
+                "1af1d92df4896d30"
+            ]
+        ]
+    },
+    {
+        "id": "1af1d92df4896d30",
+        "type": "exec",
+        "z": "2dfd86c6ca145ed9",
+        "command": "journalctl --vacuum-size=16M",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "",
+        "x": 390,
+        "y": 400,
+        "wires": [
+            [],
+            [],
+            [
+                "b4609e9873f24a05"
+            ]
+        ]
+    },
+    {
+        "id": "b4609e9873f24a05",
+        "type": "exec",
+        "z": "2dfd86c6ca145ed9",
+        "command": "journalctl --disk-usage",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "",
+        "x": 640,
+        "y": 400,
+        "wires": [
+            [
+                "ee60263559d81290"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "79674663d8b14725",
+        "type": "ui_button",
+        "z": "2dfd86c6ca145ed9",
+        "name": "",
+        "group": "cc52c7bc7f305726",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Reset WiFi",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 110,
+        "y": 460,
+        "wires": [
+            [
+                "aaa56354ab81f172"
+            ]
+        ]
+    },
+    {
+        "id": "7465c235fcc42321",
+        "type": "file",
+        "z": "2dfd86c6ca145ed9",
+        "name": "",
+        "filename": "/etc/wpa_supplicant/wpa_supplicant.conf",
+        "appendNewline": false,
+        "createDir": false,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 800,
+        "y": 460,
+        "wires": [
+            [
+                "ee60263559d81290"
+            ]
+        ]
+    },
+    {
+        "id": "aaa56354ab81f172",
+        "type": "file in",
+        "z": "2dfd86c6ca145ed9",
+        "name": "",
+        "filename": "/etc/wpa_supplicant/wpa_supplicant.default.conf",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 440,
+        "y": 460,
+        "wires": [
+            [
+                "7465c235fcc42321"
+            ]
+        ]
+    },
+    {
+        "id": "ee60263559d81290",
+        "type": "ui_template",
+        "z": "2dfd86c6ca145ed9",
+        "group": "cc52c7bc7f305726",
+        "name": "Logs",
+        "order": 0,
+        "width": "0",
+        "height": "0",
+        "format": "<textarea style=\"background-color:black; color:green;\" name=\"Text1\" cols=\"50\" rows=\"10\">{{msg.payload}}</textarea>\n\n\n",
+        "storeOutMessages": false,
+        "fwdInMessages": false,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "className": "",
+        "x": 1030,
+        "y": 360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3a7cc5536bdc3e97",
+        "type": "ui_switch",
+        "z": "2dfd86c6ca145ed9",
+        "name": "",
+        "label": "SD Card Protection",
+        "tooltip": "",
+        "group": "efa01293b7796321",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "decouple": "true",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "r",
+        "onvalueType": "str",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "rw",
+        "offvalueType": "str",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 290,
+        "y": 620,
+        "wires": [
+            [
+                "8858d984e666c1a1",
+                "5dacbd66e2879854"
+            ]
+        ]
+    },
+    {
+        "id": "abb17fd6def151f8",
+        "type": "mqtt in",
+        "z": "2dfd86c6ca145ed9",
+        "name": "",
+        "topic": "system/sd",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "056fea0e50f3d612",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 100,
+        "y": 620,
+        "wires": [
+            [
+                "3a7cc5536bdc3e97"
+            ]
+        ]
+    },
+    {
+        "id": "21784bc56a13ce9f",
+        "type": "inject",
+        "z": "2dfd86c6ca145ed9",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 100,
+        "y": 720,
+        "wires": [
+            [
+                "df876ab38b273c77"
+            ]
+        ]
+    },
+    {
+        "id": "df876ab38b273c77",
+        "type": "file in",
+        "z": "2dfd86c6ca145ed9",
+        "name": "is sdcard readonly",
+        "filename": "/boot/cmdline.txt",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 310,
+        "y": 720,
+        "wires": [
+            [
+                "86647e163bdec6c4"
+            ]
+        ]
+    },
+    {
+        "id": "86647e163bdec6c4",
+        "type": "debug",
+        "z": "2dfd86c6ca145ed9",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 510,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "ed7f263e4872869d",
+        "type": "exec",
+        "z": "2dfd86c6ca145ed9",
+        "command": "raspi-config nonint enable_overlayfs",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "Protect SD Card",
+        "x": 620,
+        "y": 600,
+        "wires": [
+            [
+                "b1dee62241f82ef3"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "97db527cacdc2bbf",
+        "type": "exec",
+        "z": "2dfd86c6ca145ed9",
+        "command": "raspi-config nonint disable_overlayfs",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "Disable SD Card Protection",
+        "x": 660,
+        "y": 660,
+        "wires": [
+            [
+                "40457a733ffea8df"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "1e4c87bbc4f1c47e",
+        "type": "ui_toast",
+        "z": "2dfd86c6ca145ed9",
+        "position": "top right",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "Notify SD Card Mode",
+        "x": 1080,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "5dacbd66e2879854",
+        "type": "mqtt out",
+        "z": "2dfd86c6ca145ed9",
+        "name": "",
+        "topic": "system/sd",
+        "qos": "",
+        "retain": "true",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "056fea0e50f3d612",
+        "x": 460,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "8858d984e666c1a1",
+        "type": "switch",
+        "z": "2dfd86c6ca145ed9",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "r",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "rw",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 450,
+        "y": 620,
+        "wires": [
+            [
+                "ed7f263e4872869d"
+            ],
+            [
+                "97db527cacdc2bbf"
+            ]
+        ]
+    },
+    {
+        "id": "b1dee62241f82ef3",
+        "type": "change",
+        "z": "2dfd86c6ca145ed9",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "SD Card will be read only on next reboot",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 800,
+        "y": 600,
+        "wires": [
+            [
+                "1e4c87bbc4f1c47e"
+            ]
+        ]
+    },
+    {
+        "id": "937a36685ae96d41",
+        "type": "comment",
+        "z": "2dfd86c6ca145ed9",
+        "name": "SD  Card Protection",
+        "info": "",
+        "x": 110,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "201d6f6da641d1e9",
+        "type": "comment",
+        "z": "2dfd86c6ca145ed9",
+        "name": "Clear Personal Information",
+        "info": "",
+        "x": 130,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "c990c8cbc8218e5f",
+        "type": "comment",
+        "z": "2dfd86c6ca145ed9",
+        "name": "Control / CPU - Temperature Information",
+        "info": "",
+        "x": 180,
+        "y": 20,
+        "wires": []
+    },
+    {
+        "id": "40457a733ffea8df",
+        "type": "change",
+        "z": "2dfd86c6ca145ed9",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "SD Card will be writeable on next reboot",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 880,
+        "y": 660,
+        "wires": [
+            [
+                "1e4c87bbc4f1c47e"
+            ]
+        ]
+    }
+]

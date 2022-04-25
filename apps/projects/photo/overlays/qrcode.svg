@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="320mm"
+   height="240mm"
+   viewBox="0 0 320 240"
+   version="1.1"
+   id="svg12"
+   sodipodi:docname="qrcode.svg"
+   inkscape:export-filename="X:\apps\projects\photo\overlay.png"
+   inkscape:export-xdpi="25.4"
+   inkscape:export-ydpi="25.4"
+   inkscape:version="1.2-dev (c1616499, 2022-01-19)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview14"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:blackoutopacity="0.0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.54362802"
+     inkscape:cx="596.91552"
+     inkscape:cy="284.20169"
+     inkscape:window-width="1198"
+     inkscape:window-height="1008"
+     inkscape:window-x="-7"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs9" />
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#000000;stroke:none;stroke-width:0.120064;stroke-linecap:round"
+       id="rect68"
+       width="320"
+       height="240"
+       x="0"
+       y="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.9333px;line-height:1.25;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math';fill:#ffffff;stroke-width:0.264583"
+       x="177.92465"
+       y="23.402082"
+       id="text5417"><tspan
+         sodipodi:role="line"
+         id="tspan5415"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Consolas;-inkscape-font-specification:Consolas;fill:#ffffff;stroke-width:0.264583"
+         x="177.92465"
+         y="23.402082">Photo</tspan></text>
+    <path
+       style="fill:#ffffff;stroke:#ffffff;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 193.15324,11.098783 7.31315,-8.861819 7.14108,9.033893 z"
+       id="path7380" />
+    <ellipse
+       style="fill:#ff0000;stroke:none;stroke-width:0.0919725;stroke-linecap:round"
+       id="path13815"
+       cx="288.23547"
+       cy="13.362742"
+       rx="11.210148"
+       ry="10.682611"
+       inkscape:transform-center-x="-2.4090382"
+       inkscape:transform-center-y="-0.68829664" />
+  </g>
+</svg>
